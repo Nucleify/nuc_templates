@@ -7,6 +7,7 @@ import {
   NucCardCategory,
   NucCube,
   NucFlipCard,
+  NucHexagonsButton,
   NucHomeLink,
   NucTiles,
 } from '.'
@@ -19,6 +20,7 @@ export function registerNucTemplates(app: App<Element>): void {
     .component('nuc-card-category', NucCardCategory)
     .component('nuc-cube', NucCube)
     .component('nuc-flip-card', NucFlipCard)
+    .component('nuc-hexagons-button', NucHexagonsButton)
     .component('nuc-home-link', NucHomeLink)
     .component('nuc-tiles', NucTiles)
 }
