@@ -1,11 +1,6 @@
 import type { App } from 'vue'
 
-import {
-  NucAuthors,
-  NucCube,
-  NucHomeLink,
-  NucTiles,
-} from '.'
+import { NucAuthors, NucCube, NucHomeLink, NucTiles } from '.'
 
 export function registerNucTemplates(app: App<Element>): void {
   app
