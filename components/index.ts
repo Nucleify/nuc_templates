@@ -1,5 +1,4 @@
 export * from './authors'
-export * from './card'
 export * from './cube'
 export * from './dashboard'
 export * from './hexagons-button'
