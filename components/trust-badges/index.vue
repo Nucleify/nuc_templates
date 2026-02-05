@@ -8,15 +8,12 @@
 </template>
 
 <script setup lang="ts">
-export interface TrustBadgeItemInterface {
-  icon: string
-  label: string
-}
+import type { NucTrustBadgeItemInterface } from './types'
 
 interface TrustBadgePropsInterface {
-  items?: TrustBadgeItemInterface[]
+  items?: NucTrustBadgeItemInterface[]
 }
 
-const props = defineProps<TrustBadgePropsInterface>()
+defineProps<TrustBadgePropsInterface>()
 </script>
 
