@@ -3,6 +3,7 @@ import type { App } from 'vue'
 import {
   NucAuthors,
   NucCube,
+  NucGridBackground,
   NucHomeLink,
   NucShinyBadge,
   NucTiles,
@@ -13,6 +14,7 @@ export function registerNucTemplates(app: App<Element>): void {
   app
     .component('nuc-authors', NucAuthors)
     .component('nuc-cube', NucCube)
+    .component('nuc-grid-background', NucGridBackground)
     .component('nuc-home-link', NucHomeLink)
     .component('nuc-shiny-badge', NucShinyBadge)
     .component('nuc-tiles', NucTiles)
