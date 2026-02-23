@@ -1,6 +1,10 @@
 <template>
   <ad-button
-    :class="['nuc-submit-button', props.class]"
+    :class="[
+      'nuc-submit-button',
+      props.variant && `nuc-submit-button-${props.variant}`,
+      props.class,
+    ]"
     :icon="props.icon"
     :disabled="props.disabled"
     :type="props.type"
