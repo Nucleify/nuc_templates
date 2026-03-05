@@ -1,6 +1,6 @@
 <template>
   <ad-anchor
-    :href="`/${lang}/home`"
+    :href="`/${lang}/dev`"
     class="nuc-home-link"
     icon="prime:chevron-left"
     title="Back to home"
