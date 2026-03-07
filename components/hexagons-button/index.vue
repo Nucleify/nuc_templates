@@ -9,9 +9,8 @@
 </template>
 
 <script setup lang="ts">
-import type { ButtonInterface } from 'atomic'
-
-import { transformProps } from 'atomic/boson/transform_props'
+import type { ButtonInterface } from 'nucleify'
+import { transformProps } from 'nucleify/boson/transform_props'
 
 const props = defineProps<ButtonInterface>()
 </script>

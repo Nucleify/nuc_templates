@@ -1,3 +1,3 @@
-import type { ButtonInterface } from 'atomic'
+import type { ButtonInterface } from 'nucleify'
 
 export interface NucSubmitButtonInterface extends ButtonInterface {}
