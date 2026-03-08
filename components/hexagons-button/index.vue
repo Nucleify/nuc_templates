@@ -10,6 +10,7 @@
 
 <script setup lang="ts">
 import type { ButtonInterface } from 'nucleify'
+
 import { transformProps } from 'nucleify/boson/transform_props'
 
 const props = defineProps<ButtonInterface>()
