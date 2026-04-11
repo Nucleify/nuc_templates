@@ -4,4 +4,3 @@
     <div class="nuc-grid-background-glow"></div>
   </div>
 </template>
-

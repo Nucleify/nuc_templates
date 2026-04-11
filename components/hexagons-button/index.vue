@@ -1,8 +1,5 @@
 <template>
-  <ad-button
-    v-bind="transformProps(props)"
-    class="nuc-hexagons-button"
-  >
+  <ad-button v-bind="transformProps(props)" class="nuc-hexagons-button">
     <slot />
     <nuc-animation-hexagons />
   </ad-button>

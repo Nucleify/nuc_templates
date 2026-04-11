@@ -16,4 +16,3 @@ interface TrustBadgePropsInterface {
 
 defineProps<TrustBadgePropsInterface>()
 </script>
-

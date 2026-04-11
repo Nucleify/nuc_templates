@@ -27,4 +27,3 @@ function handleClick(event: MouseEvent): void {
   emit('click', event)
 }
 </script>
-

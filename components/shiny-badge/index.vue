@@ -10,4 +10,3 @@ import type { NucShinyBadgeInterface } from './types'
 
 defineProps<NucShinyBadgeInterface>()
 </script>
-
