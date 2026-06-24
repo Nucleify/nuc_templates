@@ -9,7 +9,7 @@ import {
   NucSubmitButton,
   NucTiles,
   NucTrustBadges,
-} from '.'
+} from 'nucleify'
 
 export function registerNucTemplates(app: App<Element>): void {
   app

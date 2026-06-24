@@ -1,10 +1,15 @@
-/**
- *  Module's main file export
- */
 export * from './nuc_templates'
 
-/**
- *  Folders exports
- */
-export * from './components';
-  
+export { default as NucAuthors } from './authors/index.vue'
+export { default as NucCube } from './cube/index.vue'
+export * from './cube/interfaces'
+export * from './dashboard/interfaces'
+export { default as NucGridBackground } from './grid-background/index.vue'
+export { default as NucHomeLink } from './home-link/index.vue'
+export { default as NucShinyBadge } from './shiny-badge/index.vue'
+export * from './shiny-badge/interfaces'
+export { default as NucSubmitButton } from './submit-button/index.vue'
+export { default as NucTiles } from './tiles/index.vue'
+export * from './tiles/interfaces'
+export { default as NucTrustBadges } from './trust-badges/index.vue'
+export * from './trust-badges/interfaces'

@@ -1,1 +1,0 @@
-export { default as NucHexagonsButton } from './index.vue'

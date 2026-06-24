@@ -1,0 +1,76 @@
+
+.nuc-submit-button {
+  font-size: $font-size-sm;
+  letter-spacing: 0.025em;
+  margin-top: .5rem;
+  transition: all 0.3s ease;
+  gap: .5rem;
+  font-weight: 700;
+
+  &:disabled {
+    opacity: 0.65;
+    box-shadow: none;
+  }
+
+  &:hover:not(:disabled) {
+    transform: translateY(-2px);
+  }
+
+  &-primary {
+    background: $primary-color;
+    border-color: $primary-color;
+    color: #000;
+    box-shadow: 0 4px 24px nuc-primary-rgba(0.4);
+
+    .p-button-label,
+    .iconify,
+    .pi {
+      color: #000;
+    }
+
+    &:hover:not(:disabled) {
+      background: var(--nuc-primary-hover-color);
+      border-color: var(--nuc-primary-hover-color);
+      box-shadow: 0 8px 32px nuc-primary-rgba(0.5);
+      
+      .p-button-label,
+      .iconify,
+      .pi {
+        color: $primary-color;
+      }
+    }
+  }
+
+  &-secondary {
+    background: nuc-primary-rgba(0.1);
+    border: 1px solid nuc-primary-rgba(0.3);
+    color: $primary-color;
+    box-shadow: none;
+
+    .p-button-label,
+    .iconify,
+    .pi {
+      color: $primary-color;
+    }
+
+    &:hover:not(:disabled) {
+      background: nuc-primary-rgba(0.15);
+      border-color: nuc-primary-rgba(0.5);
+      box-shadow: none;
+    }
+  }
+
+  @media (min-width: $md) {
+    font-size: 1rem;
+  }
+}
+
+html:not(.p-dark) .nuc-submit-button-primary {
+  background: var(--nuc-primary-color-darker);
+  border-color: var(--nuc-primary-color-darker);
+
+  &:hover:not(:disabled) {
+    background: var(--nuc-primary-color);
+    border-color: var(--nuc-primary-color);
+  }
+}
