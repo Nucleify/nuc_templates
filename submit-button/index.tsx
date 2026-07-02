@@ -27,7 +27,7 @@ export function NucSubmitButton({
       label={label}
       icon={icon}
       className={rootClass}
-      adType={variant === 'primary' ? 'main' : undefined}
+      nuiType={variant === 'primary' ? 'main' : undefined}
       type={type}
       disabled={disabled}
       onClick={onClick}
